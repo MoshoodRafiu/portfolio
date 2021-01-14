@@ -135,14 +135,14 @@ export default {
 <style>
     header{
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         background: black;
         color: white;
     }
     .particle--background{
         position: absolute;
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
     }
     .navigation{
         position: absolute;
