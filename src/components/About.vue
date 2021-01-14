@@ -24,6 +24,9 @@
                         solutions to problems that in turn benefits both individuals and organizations.
                         </p>
                     </div>
+                    <div class="about--section-footer">
+                        <button>Download CV</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -52,7 +55,7 @@ export default {
     }
     .about--item-content
     .about--section-header h3{
-        font-size: 40px;
+        font-size: 35px;
         text-transform: uppercase;
     }
     .about--item-content
@@ -61,6 +64,23 @@ export default {
         font-size: 17px;
         letter-spacing: 1px;
         word-spacing: 5px;
+    }
+    .about--item-content
+    .about--section-footer button{
+        padding: 10px;
+        width: 150px;
+        font-size: 15px;
+        text-transform: uppercase;
+        border: none;
+        background: transparent;
+        color: #000;
+        border: 1px solid #000;
+        letter-spacing: 3px;
+    }
+    .about--item-content
+    .about--section-footer button:hover{
+        background: #000;
+        color: #fff;
     }
     .underline{
         display: flex;

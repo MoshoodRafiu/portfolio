@@ -142,7 +142,7 @@ export default {
     .particle--background{
         position: absolute;
         width: 100%;
-        min-height: 100vh;
+        height: 100vh;
     }
     .navigation{
         position: absolute;

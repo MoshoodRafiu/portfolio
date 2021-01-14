@@ -26,4 +26,7 @@ export default {
     box-sizing: border-box;
     font-family: 'Odibee Sans', cursive;
   }
+  button:focus{
+    outline: none;
+  }
 </style>
