@@ -64,9 +64,10 @@ export default {
     .about--item-content
     .about--section-content p{
         padding: 10px 0;
-        font-size: 17px;
+        font-size: 15px;
         letter-spacing: 1px;
         word-spacing: 5px;
+        font-family: 'Noto Sans TC', sans-serif;
     }
     .about--item-content
     .about--section-footer button{

@@ -71,12 +71,14 @@ export default {
         background: #fff !important;
     }
     .project--container{
-        border: 0.1px solid #fff;
+        border: 0.1px solid #383636;
         border-radius: 5px;
         color: #fff;
         word-spacing: 5px;
         letter-spacing: 1px;
         margin: 40px 0;
+        background: rgb(19, 18, 18);
+        box-shadow: 0 0 15px #3f3c3c;
     }
     .project--container .project--header{
         font-size: 20px;
@@ -94,9 +96,12 @@ export default {
         transform: scale(1.1);
     }
     .project--container .project--body{
-        border-top: 0.1px solid #ffffff;
-        padding: 10px;
+        border-top: 0.1px solid #383636;
+        padding: 15px 10px;
         text-align: left;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 13px;
+        font-style: 100;
     }
     .project--container .project--footer{
         padding: 10px;
@@ -104,15 +109,16 @@ export default {
         margin: 0 10px 20px 10px;
         display: flex;
         overflow-x: auto;
+        border-radius: 5px;
     }
     .project--footer-tech{
         width: 40px;
     }
     .project--container .project--view{
-        border-top: 0.1px solid #ffffff;
+        border-top: 0.1px solid #383636;
         padding: 15px;
-        /* background: #fff; */
-        /* color: #000; */
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 14px;
     }
      .project--container .project--view a{
         color: #fff;

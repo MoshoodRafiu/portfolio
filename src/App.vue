@@ -36,4 +36,14 @@ export default {
   button:focus{
     outline: none;
   }
+  .col-lg-4{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  @media screen and (max-width: 600px) {
+      .col-lg-4{
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+  }
 </style>
