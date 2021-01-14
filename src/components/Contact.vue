@@ -30,7 +30,7 @@ export default {
     }
     .contact--container{
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         width: 100%;
         transform: translateX(-50%)translateY(-50%);
