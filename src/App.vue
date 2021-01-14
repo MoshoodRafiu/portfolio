@@ -27,6 +27,9 @@ export default {
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+  html{
+    scroll-behavior: smooth;
+  }
   body{
     padding: 0;
     margin: 0;
