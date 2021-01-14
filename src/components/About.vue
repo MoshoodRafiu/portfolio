@@ -40,7 +40,7 @@ export default {
         display: flex;
     }
     .about--item{
-        height: 100vh;
+        min-height: 100vh;
         position: relative;
     }
     .about--item
@@ -64,6 +64,7 @@ export default {
     }
     .underline{
         display: flex;
+        margin-bottom: 20px;
     }
     .underline-start,
     .underline-end{
@@ -80,6 +81,9 @@ export default {
     @media screen and (max-width: 780px) {
         .about--item.image--section{
             display: none;
+        }
+        .about--item{
+            margin: 50px 0;
         }
     }
 </style>
