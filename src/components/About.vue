@@ -43,8 +43,6 @@ export default {
     #about{
         min-height: 100vh;
         display: flex;
-        font-family: 'Noto Sans TC', sans-serif;
-        color: #7e7d7d;
     }
     .about--item{
         min-height: 100vh;
@@ -73,7 +71,7 @@ export default {
     .about--item-content
     .about--section-footer button{
         padding: 10px;
-        width: 180px;
+        width: 150px;
         font-size: 15px;
         text-transform: uppercase;
         border: none;
@@ -95,7 +93,7 @@ export default {
     .underline-start,
     .underline-end{
         height: 3px;
-        background: #7e7e7e;
+        background: #000;
     }
       .underline-container{
             display: flex;
