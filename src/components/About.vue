@@ -15,6 +15,15 @@
                             <div class="underline-end"></div>
                         </div>
                     </div>
+                    <div class="about--section-content">
+                        <p>
+                            I am a creative and ambitious web developer and programmer with a talent for critical reasoning, problem solving
+                        and time management.I am currently in my fourth year of studying Electronic and Computer Engineering at Lagos
+                        state University. I have excellent communication skills, enabling me to effectively communicate with a wide range
+                        of people and I am eager to be challenged so as to develop and also improve my skills. My passion is to provide
+                        solutions to problems that in turn benefits both individuals and organizations.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -46,6 +55,13 @@ export default {
         font-size: 40px;
         text-transform: uppercase;
     }
+    .about--item-content
+    .about--section-content p{
+        padding: 10px 0;
+        font-size: 17px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+    }
     .underline{
         display: flex;
     }
@@ -55,7 +71,7 @@ export default {
         background: #000;
     }
     .underline-start{
-        width: 70px;
+        width: 80px;
     }
     .underline-end{
         width: 30px;
