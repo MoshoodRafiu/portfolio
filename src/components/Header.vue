@@ -4,10 +4,13 @@
             <vue-particles class="particle--background" color="#dedede"></vue-particles>
             <div class="navigation">
                 <div class="navigation--wrapper">
-                    <div class="user--name">
-                        ROM
+                    <div class="brand--details">
+                        <div class="brand--logo-wrapper">
+                            <img src="../assets/rom-light.svg" class="brand--logo" alt="logo">
+                        </div>
+                        <div class="brand--name">ROM</div>
                     </div>
-                    <div class="navigation--links">
+                    <div class="navigation--links" :class="{'toggled': sidebarToggled}">
                         <ul>
                             <li>
                                 <a href="#">About</a>
@@ -23,7 +26,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="navigation--toggler">
+                    <div class="navigation--toggler" @click="sidebarToggle" :class="{'toggled': sidebarToggled}">
                         <div class="navigation--toggler-line"></div>
                         <div class="navigation--toggler-line"></div>
                         <div class="navigation--toggler-line"></div>
@@ -50,7 +53,7 @@
                 </div>
                 <div class="col-md-5 header--item user--image--section">
                     <div class="header--item--content">
-                        <img src="../../assets/passport.jpg" @mouseover="showBadge" @mouseleave="hideBadge" class="header--user--picture" alt="Rafiu Moshood">
+                        <img src="../assets/passport.jpg" @mouseover="showBadge" @mouseleave="hideBadge" class="header--user--picture" alt="Rafiu Moshood">
                         <div class="header--user--picture-effect" @mouseover="showBadge" @mouseleave="hideBadge" :style="userImageStyle"></div>
                         <div class="header-badge-detail" :style="{opacity: badgeOpacity}">
                             <span class="fa fa-certificate"></span>
@@ -70,6 +73,7 @@ export default {
             imageCoverWidth: 0,
             processing: false,
             badgeOpacity: 0,
+            sidebarToggled: false
         }
     },
     created() {
@@ -79,6 +83,9 @@ export default {
         clearInterval(this.badgeWindowInterval);
     },
     methods: {
+        sidebarToggle(){
+            this.sidebarToggled = !this.sidebarToggled;
+        },
         toggleWindowBadge(){
             this.badgeWindowInterval = setInterval(() => {
                 if (this.imageCoverWidth === 0){
@@ -151,13 +158,42 @@ export default {
         padding: 5px;
         display: none;
     }
+    .navigation--toggler.toggled 
+    .navigation--toggler-line{
+        opacity: 0;
+    }
+    .navigation--toggler.toggled 
+    .navigation--toggler-line:first-child,
+    .navigation--toggler.toggled 
+    .navigation--toggler-line:last-child{
+        position: absolute;
+        top: 47%;
+        opacity: 1;
+        transition: 0.4s linear;
+    }
+    .navigation--toggler.toggled 
+    .navigation--toggler-line:first-child{
+        transform: rotate(45deg);
+    }
+    .navigation--toggler.toggled 
+    .navigation--toggler-line:last-child{
+        transform: rotate(-45deg);
+    }
     .navigation--toggler-line{
         height: 3px;
         width: 25px;
         background: #fff;
         margin: 5px 0;
     }
-    .navigation .navigation--wrapper .user--name{
+    .navigation .navigation--wrapper .brand--details{
+        display: flex;
+        align-items: center;
+    }
+    .navigation .navigation--wrapper .brand--details .brand--logo-wrapper .brand--logo{
+        width: 30px;
+    }
+    .navigation .navigation--wrapper .brand--details .brand--name{
+        margin-left: 5px;
         font-size: 25px;
         letter-spacing: 4px;
     }
@@ -307,7 +343,7 @@ export default {
         transition: 0.6s linear;
     }
     @media screen and (max-width: 1200px) {
-         .header--container 
+        .header--container 
         .header--item 
         .header--item--content
         .header--name{
@@ -345,9 +381,25 @@ export default {
         .navigation--toggler{
             padding: 5px;
             display: block;
+            /* transition: 0.6s linear; */
         }
-        .navigation--links{
-            display: none;
+        .navigation--links ul{
+            margin: 0 !important;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.95);
+            left: -100%;
+            top: 0;
+            width: 60%;
+            padding: 50px 20px;
+            height: 100vh;
+            transition: 0.4s linear;
+        }
+        .navigation--links.toggled ul{
+            left: 0%;
+        }
+        .navigation--links ul li a{
+            display: block;
+            margin-bottom: 50px;
         }
     }
      @media screen and (max-width: 500px) {
