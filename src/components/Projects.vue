@@ -14,10 +14,10 @@
                     </div>
                     <div class="projects--section-header">
                         <div class="row">
-                            <div class="col-lg-4 col-md-6">
+                            <div class="col-lg-4 col-md-6" v-for="index in 6" :key="index">
                                 <div class="project--container">
                                     <div class="project--header">
-                                        Project Name
+                                        <img src="../assets/projects/crud.png" alt="">
                                     </div>
                                     <div class="project--body">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione mollitia illum ullam autem eos, tempore illo consequatur aperiam iste nostrum!
@@ -26,6 +26,10 @@
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
                                         <img src="../assets/techs/css.svg" class="project--footer-tech" alt="html">
                                         <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="html">
                                     </div>
                                     <div class="project--view">
                                         <a href="#">View Project</a>
@@ -47,20 +51,12 @@ export default {
 <style>
     #projects{
         background: #000;
-        min-height: 100vh;
         width: 100%;
+        padding: 100px 40px;
         position: relative;
     }
     .projects--container{
-        min-height: 100vh;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%)translateY(-50%);
         width: 100%;
-    }
-    .projects--container-content{
-        margin: 100px 20px;
     }
     .projects--section-header{
         text-align: center;
@@ -84,10 +80,13 @@ export default {
     }
     .project--container .project--header{
         font-size: 20px;
-        height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .project--container .project--header img{
+        width: 100%;
+        border-radius: 5px 5px 0 0;
     }
     .project--container .project--body{
         border-top: 0.1px solid #ffffff;
@@ -99,18 +98,25 @@ export default {
         background: #fff;
         margin: 0 10px 20px 10px;
         display: flex;
+        overflow-x: auto;
     }
     .project--footer-tech{
-        width: 20px;
+        width: 35px;
     }
     .project--container .project--view{
         border-top: 0.1px solid #ffffff;
         padding: 10px;
-        background: #fff;
-        color: #000;
+        /* background: #fff; */
+        /* color: #000; */
     }
      .project--container .project--view a{
-        color: #000;
+        color: #fff;
         text-decoration: none;
+        text-transform: uppercase;
+    }
+    @media screen and (max-width: 500px) {
+        #projects{
+            padding: 100px 20px;
+        }
     }
 </style>

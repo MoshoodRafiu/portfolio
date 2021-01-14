@@ -135,7 +135,7 @@ export default {
 <style>
     header{
         width: 100%;
-        min-height: 100vh;
+        height: 100vh;
         background: black;
         color: white;
     }

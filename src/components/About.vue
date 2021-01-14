@@ -11,13 +11,15 @@
                     <div class="about--section-header">
                         <h3>About Me</h3>
                         <div class="underline">
-                            <div class="underline-start"></div>
-                            <div class="underline-end"></div>
+                            <div class="underline-container">
+                                <div class="underline-start"></div>
+                                <div class="underline-end"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="about--section-content">
                         <p>
-                            I am a creative and ambitious web developer and programmer with a talent for critical reasoning, problem solving
+                            I am a creative and ambitious full stack web developer and programmer with a talent for critical reasoning, problem solving
                         and time management.I am currently in my fourth year of studying Electronic and Computer Engineering at Lagos
                         state University. I have excellent communication skills, enabling me to effectively communicate with a wide range
                         of people and I am eager to be challenged so as to develop and also improve my skills. My passion is to provide
@@ -51,6 +53,7 @@ export default {
         position: absolute;
         top: 50%;
         left: 50%;
+        width: 80%;
         transform: translateX(-50%)translateY(-50%);
     }
     .about--item-content
@@ -92,6 +95,9 @@ export default {
         height: 3px;
         background: #000;
     }
+      .underline-container{
+            display: flex;
+        }
     .underline-start{
         width: 80px;
     }
@@ -103,8 +109,12 @@ export default {
         .about--item.image--section{
             display: none;
         }
-        .about--item{
-            margin: 100px 0;
+        .about--item-content
+        .about--section-header h3{
+            text-align: center;
+        }
+        .underline-container{
+            margin: auto;
         }
     }
 </style>

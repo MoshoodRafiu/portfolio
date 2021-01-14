@@ -3,6 +3,7 @@
     <app-header/>
     <app-about/>
     <app-projects/>
+    <app-contact/>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 export default {
   name: 'App',
   components: {
     appHeader: Header,
     appAbout: About,
-    appProjects: Projects
+    appProjects: Projects,
+    appContact: Contact
   }
 }
 </script>
