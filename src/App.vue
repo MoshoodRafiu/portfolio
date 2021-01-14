@@ -25,6 +25,7 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
   body{
     padding: 0;

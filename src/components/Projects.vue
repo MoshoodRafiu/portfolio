@@ -7,8 +7,8 @@
                         <h3>Projects</h3>
                         <div class="underline mx-auto">
                             <div class="mx-auto d-flex">
-                                <div class="underline-start light"></div>
-                                <div class="underline-end light"></div>
+                                <div class="underline-start"></div>
+                                <div class="underline-end"></div>
                             </div>
                         </div>
                     </div>
@@ -50,10 +50,12 @@ export default {
 </script>
 <style>
     #projects{
-        background: #000;
+        background: #F2EFEF;
         width: 100%;
         padding: 100px 40px;
         position: relative;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #7e7d7d;
     }
     .projects--container{
         width: 100%;
@@ -62,55 +64,57 @@ export default {
         text-align: center;
     }
     .projects--section-header h3{
-        color: #fff;
+        /* color: #000; */
         font-size: 35px;
         text-transform: uppercase;
-    }
-    .underline-start.light,
-    .underline-end.light{
-        background: #fff !important;
     }
     .project--container{
         border: 0.1px solid #fff;
         border-radius: 5px;
-        color: #fff;
+        /* color: #000; */
+        background: #fff;
         word-spacing: 5px;
         letter-spacing: 1px;
-        margin: 20px 0;
+        margin: 40px 0;
+        box-shadow: 0 0 10px #ccc;
     }
     .project--container .project--header{
         font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
     .project--container .project--header img{
         width: 100%;
         border-radius: 5px 5px 0 0;
+        transition: 0.6s linear;
+    }
+    .project--container .project--header img:hover{
+        transform: scale(1.2);
     }
     .project--container .project--body{
-        border-top: 0.1px solid #ffffff;
+        border-top: 0.1px solid #000;
         padding: 10px;
         text-align: left;
     }
     .project--container .project--footer{
         padding: 10px;
-        background: #fff;
+        background: #F2EFEF;
+        border-radius: 5px;
         margin: 0 10px 20px 10px;
         display: flex;
         overflow-x: auto;
     }
     .project--footer-tech{
-        width: 35px;
+        width: 40px;
     }
     .project--container .project--view{
-        border-top: 0.1px solid #ffffff;
-        padding: 10px;
-        /* background: #fff; */
-        /* color: #000; */
+        border-top: 0.1px solid #000;
+        padding: 15px;
     }
      .project--container .project--view a{
-        color: #fff;
+        color: #7e7d7d;
         text-decoration: none;
         text-transform: uppercase;
     }
