@@ -16,66 +16,55 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header">
+                                    <div class="project--header" @click="goToSite('https://crudng.com')">
                                         <img src="../assets/projects/crud.png" alt="">
                                     </div>
                                     <div class="project--body">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione mollitia illum ullam autem eos, tempore illo consequatur aperiam iste nostrum!
+                                        The official website of CRUD Technologies. This project was designed with HTML, CSS and Vue JS technology.
                                     </div>
                                     <div class="project--footer">
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="vue">
                                     </div>
-                                    <div class="project--view">
+                                    <div class="project--view" @click="goToSite('https://crudng.com')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header">
+                                    <div class="project--header" @click="goToSite('https://devrom-calculator.netlify.app')">
                                         <img src="../assets/projects/calculator.png" alt="">
                                     </div>
                                     <div class="project--body">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione mollitia illum ullam autem eos, tempore illo consequatur aperiam iste nostrum!
+                                        A web-based javascript calculator that performs basic mathematics computations. Designed with HTML, CSS and Vanilla JS.
                                     </div>
                                     <div class="project--footer">
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
                                     </div>
-                                    <div class="project--view">
+                                    <div class="project--view" @click="goToSite('https://devrom-calculator.netlify.app')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header">
+                                    <div class="project--header" @click="goToSite('https://devrom-cardgame.netlify.app')">
                                         <img src="../assets/projects/cardgame.png" alt="">
                                     </div>
                                     <div class="project--body">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione mollitia illum ullam autem eos, tempore illo consequatur aperiam iste nostrum!
+                                        A web-based javascript card game where users play with a programmed opponent. Designed with HTML, CSS and Vanilla JS.
                                     </div>
                                     <div class="project--footer">
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
                                     </div>
-                                    <div class="project--view">
+                                    <div class="project--view" @click="goToSite('https://devrom-cardgame.netlify.app')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
@@ -89,7 +78,12 @@
 </template>
 <script>
 export default {
-    
+    name: 'projects',
+    methods: {
+        goToSite(url){
+            window.open(url, '_blank')
+        }
+    }
 }
 </script>
 <style>
@@ -135,6 +129,7 @@ export default {
         width: 100%;
         border-radius: 5px 5px 0 0;
         transition: 0.6s linear;
+        cursor: pointer;
     }
     .project--container .project--header img:hover{
         transform: scale(1.1);
@@ -154,6 +149,7 @@ export default {
         display: flex;
         overflow-x: auto;
         border-radius: 5px;
+        justify-content: center;
     }
     .project--footer-tech{
         width: 40px;
@@ -163,6 +159,7 @@ export default {
         padding: 15px;
         font-family: 'Noto Sans TC', sans-serif;
         font-size: 14px;
+        cursor: pointer;
     }
      .project--container .project--view a{
         color: #fff;
