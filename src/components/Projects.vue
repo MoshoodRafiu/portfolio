@@ -14,10 +14,54 @@
                     </div>
                     <div class="projects--section-header">
                         <div class="row">
-                            <div class="col-lg-4 col-md-6" v-for="index in 6" :key="index">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
                                     <div class="project--header">
                                         <img src="../assets/projects/crud.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione mollitia illum ullam autem eos, tempore illo consequatur aperiam iste nostrum!
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="html">
+                                    </div>
+                                    <div class="project--view">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header">
+                                        <img src="../assets/projects/calculator.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione mollitia illum ullam autem eos, tempore illo consequatur aperiam iste nostrum!
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="html">
+                                    </div>
+                                    <div class="project--view">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header">
+                                        <img src="../assets/projects/cardgame.png" alt="">
                                     </div>
                                     <div class="project--body">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione mollitia illum ullam autem eos, tempore illo consequatur aperiam iste nostrum!
