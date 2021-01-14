@@ -83,10 +83,15 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
     .project--container .project--header img{
         width: 100%;
         border-radius: 5px 5px 0 0;
+        transition: 0.6s linear;
+    }
+    .project--container .project--header img:hover{
+        transform: scale(1.1);
     }
     .project--container .project--body{
         border-top: 0.1px solid #ffffff;

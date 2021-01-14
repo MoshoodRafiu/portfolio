@@ -24,8 +24,8 @@ export default {
 <style>
     #contact{
         height: 40vh;
-        background: #000;
-        color: #fff;
+        background: #fff;
+        color: #000;
         position: relative;
     }
     .contact--container{
