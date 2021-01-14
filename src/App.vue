@@ -2,18 +2,21 @@
   <div id="app">
     <app-header/>
     <app-about/>
+    <app-projects/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header';
 import About from './components/About';
+import Projects from './components/Projects';
 
 export default {
   name: 'App',
   components: {
     appHeader: Header,
-    appAbout: About
+    appAbout: About,
+    appProjects: Projects
   }
 }
 </script>

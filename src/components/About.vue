@@ -85,6 +85,7 @@ export default {
     .underline{
         display: flex;
         margin-bottom: 20px;
+        width: 100%;
     }
     .underline-start,
     .underline-end{
@@ -103,7 +104,7 @@ export default {
             display: none;
         }
         .about--item{
-            margin: 50px 0;
+            margin: 100px 0;
         }
     }
 </style>
