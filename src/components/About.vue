@@ -36,7 +36,7 @@ export default {
 </script>
 <style>
     #about{
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
     }
     .about--item{

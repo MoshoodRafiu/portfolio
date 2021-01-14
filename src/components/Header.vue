@@ -413,4 +413,12 @@ export default {
             font-size: 30px;
         }
     }
+    @media screen and (max-width: 350px) {
+        .header--container 
+        .header--item 
+        .header--item--content
+        .header--name{
+            font-size: 25px;
+        }
+    }
 </style>
