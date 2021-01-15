@@ -16,11 +16,30 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://crudng.com')">
+                                    <div class="project--header" @click="goToSite('https://devrom-romxchange.herokuapp.com')">
                                         <img src="../assets/projects/romxchange.png" alt="">
                                     </div>
                                     <div class="project--body">
-                                        The official website of ACEC Constructions Limited. This project was designed with HTML, CSS, Vanilla Js and jQuery.
+                                        A realtime escrowed cryptocurrency peer-to-peer exchange platform that promotes transparency in online transactions. It provides a realtime chatbox for involved parties. 
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>demo@devrom.tech</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>admin@devrom.tech</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>password</div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="project--footer">
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
@@ -31,7 +50,7 @@
                                         <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
                                         <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
                                     </div>
-                                    <div class="project--view" @click="goToSite('https://crudng.com')">
+                                    <div class="project--view" @click="goToSite('https://devrom-romxchange.herokuapp.com')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
@@ -43,6 +62,25 @@
                                     </div>
                                     <div class="project--body">
                                         The official website of ACEC Constructions Limited. This project was designed with HTML, CSS, Vanilla Js and jQuery.
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="project--footer">
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
@@ -63,6 +101,25 @@
                                     <div class="project--body">
                                         The official website of CRUD Technologies. This project was designed with HTML, CSS and Vue JS technology.
                                     </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="project--footer">
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
                                         <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
@@ -82,6 +139,25 @@
                                     <div class="project--body">
                                         A web-based javascript calculator that performs basic mathematics computations. Designed with HTML, CSS and Vanilla JS.
                                     </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="project--footer">
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
                                         <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
@@ -99,6 +175,25 @@
                                     </div>
                                     <div class="project--body">
                                         A web-based javascript card game where users play with a programmed opponent. Designed with HTML, CSS and Vanilla JS.
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="project--footer">
                                         <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
@@ -156,8 +251,8 @@ export default {
         word-spacing: 5px;
         letter-spacing: 1px;
         margin: 40px 0;
-        background: rgb(19, 18, 18);
-        box-shadow: 0 0 15px #3f3c3c;
+        background: rgb(48, 45, 45);
+        box-shadow: 0 0 15px #5f5c5c;
     }
     .project--container .project--header{
         font-size: 20px;
@@ -184,6 +279,36 @@ export default {
         font-size: 13px;
         font-style: 100;
     }
+    .project--container .project--credentials{
+        padding: 5px 10px;
+        background: #fff;
+        color: #000;
+        margin: 0 10px 20px 10px;
+        overflow-x: auto;
+        border-radius: 5px;
+        font-size: 10px;
+        text-align: left;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+    .project--container .project--credentials .project--credentials-title{
+        text-align: center;
+        padding-bottom: 3px;
+        border-bottom: 0.1px solid #000;
+    }
+    .project--container
+    .project--credentials 
+    .project--credentials-body{
+        padding-top: 3px;
+    }
+    .project--container
+    .project--credentials 
+    .project--credentials-body
+    .project--credentials-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow-x: auto;
+    }
     .project--container .project--footer{
         padding: 10px;
         background: #fff;
@@ -197,7 +322,7 @@ export default {
         width: 40px;
     }
     .project--container .project--view{
-        border-top: 0.1px solid #383636;
+        border-top: 0.1px solid #888585;
         padding: 15px;
         font-family: 'Noto Sans TC', sans-serif;
         font-size: 14px;
