@@ -17,6 +17,44 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
                                     <div class="project--header" @click="goToSite('https://crudng.com')">
+                                        <img src="../assets/projects/romxchange.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        The official website of ACEC Constructions Limited. This project was designed with HTML, CSS, Vanilla Js and jQuery.
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/jquery.svg" class="project--footer-tech" alt="jquery">
+                                    </div>
+                                    <div class="project--view" @click="goToSite('https://crudng.com')">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header" @click="goToSite('https://acecng.com')">
+                                        <img src="../assets/projects/acec.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        The official website of ACEC Constructions Limited. This project was designed with HTML, CSS, Vanilla Js and jQuery.
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/jquery.svg" class="project--footer-tech" alt="jquery">
+                                    </div>
+                                    <div class="project--view" @click="goToSite('https://acecng.com')">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header" @click="goToSite('https://crudng.com')">
                                         <img src="../assets/projects/crud.png" alt="">
                                     </div>
                                     <div class="project--body">
@@ -130,9 +168,10 @@ export default {
         border-radius: 5px 5px 0 0;
         transition: 0.6s linear;
         cursor: pointer;
+        transform: scale(1.03);
     }
     .project--container .project--header img:hover{
-        transform: scale(1.1);
+        transform: scale(1.5);
     }
     .project--container .project--body{
         border-top: 0.1px solid #383636;
