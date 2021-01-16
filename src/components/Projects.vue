@@ -174,6 +174,46 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
                                     <div class="project--header" @click="goToSite('https://devrom-calculator.netlify.app')">
+                                        <img src="../assets/projects/foodapp.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        A website that can be used by restaurants to make lists of their food with their respective prices available to their customers.
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not Required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>admin@devrom.tech</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>password</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
+                                    </div>
+                                    <div class="project--view" @click="goToSite('https://devrom-calculator.netlify.app')">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header" @click="goToSite('https://devrom-calculator.netlify.app')">
                                         <img src="../assets/projects/calculator.png" alt="">
                                     </div>
                                     <div class="project--body">
