@@ -251,8 +251,8 @@ export default {
         word-spacing: 5px;
         letter-spacing: 1px;
         margin: 40px 0;
-        background: rgb(48, 45, 45);
-        box-shadow: 0 0 15px #5f5c5c;
+        background: #222121;
+        /* box-shadow: 0 0 15px #5f5c5c;s */
     }
     .project--container .project--header{
         font-size: 20px;
@@ -263,7 +263,7 @@ export default {
     }
     .project--container .project--header img{
         width: 100%;
-        border-radius: 5px 5px 0 0;
+        border-radius: 10px 10px 0 0;
         transition: 0.6s linear;
         cursor: pointer;
         transform: scale(1.03);
