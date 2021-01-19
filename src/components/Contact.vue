@@ -3,13 +3,12 @@
         <section id="contact">
             <div class="contact--container">
                 <div class="contact--information">
-                    <div class="contact--detail"><span class="fa fa-envelope"></span></div>
-                    <div class="contact--detail"><span class="fab fa-whatsapp"></span></div>
-                    <div class="contact--detail"><span class="fa fa-phone"></span></div>
-                    <div class="contact--detail"><span class="fab fa-instagram"></span></div>
-                    <div class="contact--detail"><span class="fab fa-github"></span></div>
-                    <div class="contact--detail"><span class="fab fa-twitter"></span></div>
-                    <div class="contact--detail"><span class="fab fa-telegram"></span></div>
+                    <div class="contact--detail"><a href="https://facebook.com/moshood.rafiu.1"><span class="fab fa-facebook-f"></span></a></div>
+                    <div class="contact--detail"><a href="tel:2348144259341"><span class="fa fa-phone"></span></a></div>
+                    <div class="contact--detail"><a href="https://www.instagram.com/devkunle"><span class="fab fa-instagram"></span></a></div>
+                    <div class="contact--detail"><a href="https://github.com/devKunle"><span class="fab fa-github"></span></a></div>
+                    <div class="contact--detail"><a href="https://twitter.com/devrom_"><span class="fab fa-twitter"></span></a></div>
+                    <div class="contact--detail"><a href="mailto:rafiumoshoodolakunle@gmail.com"><span class="fa fa-envelope"></span></a></div>
                 </div>
                 <div class="copyright">&copy; Rafiu Olakunle Moshood {{ (new Date()).getFullYear() }}</div>
             </div>
@@ -23,7 +22,7 @@ export default {
 </script>
 <style>
     #contact{
-        height: 40vh;
+        height: 30vh;
         background: #fff;
         color: #000;
         position: relative;
@@ -43,6 +42,9 @@ export default {
         padding: 20px;
         font-size: 30px;
         cursor: pointer;
+    }
+    .contact--information .contact--detail a{
+        color: #000;
     }
     .copyright{
         text-align: center;

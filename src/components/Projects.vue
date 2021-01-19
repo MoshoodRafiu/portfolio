@@ -410,7 +410,7 @@ export default {
         word-spacing: 5px;
         letter-spacing: 1px;
         margin: 40px 0;
-        background: #222121;
+        background: #333030;
         /* box-shadow: 0 0 15px #5f5c5c;s */
     }
     .project--container .project--header{
