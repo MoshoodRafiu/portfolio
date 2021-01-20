@@ -27,7 +27,7 @@
                         </p>
                     </div>
                     <div class="about--section-footer">
-                        <button>Download CV</button>
+                        <a href="./rom-cv.pdf" download>Download CV</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ export default {
         font-family: 'Noto Sans TC', sans-serif;
     }
     .about--item-content
-    .about--section-footer button{
+    .about--section-footer a{
         padding: 10px;
         width: 150px;
         font-size: 15px;
@@ -80,9 +80,10 @@ export default {
         color: #000;
         border: 1px solid #000;
         letter-spacing: 3px;
+        text-decoration: none;
     }
     .about--item-content
-    .about--section-footer button:hover{
+    .about--section-footer a:hover{
         background: #000;
         color: #fff;
     }
