@@ -22,7 +22,7 @@
                                 <a href="#contact">Contacts</a>
                             </li>
                             <li>
-                                <a href="#" class="cv--download">Download CV</a>
+                                <a href="../../public/rom-cv.pdf" download class="cv--download">Download CV</a>
                             </li>
                         </ul>
                     </div>
