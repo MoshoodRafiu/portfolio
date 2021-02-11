@@ -212,7 +212,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://devrom-calculator.netlify.app')">
+                                    <div class="project--header" @click="goToSite('http://sharebay.devrom.tech')">
                                         <img src="../assets/projects/sharebay.png" alt="">
                                     </div>
                                     <div class="project--body">
@@ -245,7 +245,7 @@
                                         <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
                                         <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
                                     </div>
-                                    <div class="project--view" @click="goToSite('https://devrom-calculator.netlify.app')">
+                                    <div class="project--view" @click="goToSite('http://sharebay.devrom.tech')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
@@ -285,7 +285,7 @@
                                         <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
                                         <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
                                     </div>
-                                    <div class="project--view" @click="goToSite('https://devrom-calculator.netlify.app')">
+                                    <div class="project--view" @click="goToSite('http://foodapp.devrom.tech')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
