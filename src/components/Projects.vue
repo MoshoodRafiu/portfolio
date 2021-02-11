@@ -146,15 +146,15 @@
                                         <div class="project--credentials-body">
                                             <div class="project--credentials-info">
                                                 <div>User:</div>
-                                                <div>demo@devrom.tech</div>
+                                                <div>Not required</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Admin:</div>
-                                                <div>admin@devrom.tech</div>
+                                                <div>Not required</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Password:</div>
-                                                <div>password</div>
+                                                <div>Not required</div>
                                             </div>
                                         </div>
                                     </div>
