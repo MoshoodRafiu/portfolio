@@ -252,7 +252,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://devrom-calculator.netlify.app')">
+                                    <div class="project--header" @click="goToSite('http://foodapp.devrom.tech')">
                                         <img src="../assets/projects/foodapp.png" alt="">
                                     </div>
                                     <div class="project--body">
