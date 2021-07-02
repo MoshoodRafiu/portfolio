@@ -22,7 +22,7 @@
                                 <a href="#contact">Contacts</a>
                             </li>
                             <li>
-                                <a href="./rom-cv.pdf" download class="cv--download">Download CV</a>
+                                <a href="./Moshood Rafiu CV.pdf" download class="cv--download">Download CV</a>
                             </li>
                         </ul>
                     </div>
@@ -158,24 +158,24 @@ export default {
         padding: 5px;
         display: none;
     }
-    .navigation--toggler.toggled 
+    .navigation--toggler.toggled
     .navigation--toggler-line{
         opacity: 0;
     }
-    .navigation--toggler.toggled 
+    .navigation--toggler.toggled
     .navigation--toggler-line:first-child,
-    .navigation--toggler.toggled 
+    .navigation--toggler.toggled
     .navigation--toggler-line:last-child{
         position: absolute;
         top: 47%;
         opacity: 1;
         transition: 0.4s linear;
     }
-    .navigation--toggler.toggled 
+    .navigation--toggler.toggled
     .navigation--toggler-line:first-child{
         transform: rotate(45deg);
     }
-    .navigation--toggler.toggled 
+    .navigation--toggler.toggled
     .navigation--toggler-line:last-child{
         transform: rotate(-45deg);
     }
@@ -221,29 +221,29 @@ export default {
         display: flex;
         z-index: 9999;
     }
-    .header--container 
+    .header--container
     .header--item{
         height: 100vh;
         position: relative;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content{
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translateX(-50%)translateY(-50%);
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--greeting{
         font-size: 16px;
         text-transform: uppercase;
         letter-spacing: 4px;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--name{
         font-size: 70px;
@@ -253,23 +253,23 @@ export default {
         letter-spacing: 4px;
         word-spacing: 5px;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--role{
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 2px;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--socials{
         display: flex;
         margin-top: 15px;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--socials
     .header--social-link{
@@ -285,8 +285,8 @@ export default {
     .header--social-link a{
         color: #fff;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--socials
     .header--social-link:hover{
@@ -294,15 +294,15 @@ export default {
         color: #000;
         transition: 0.4s linear;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--socials
     .header--social-link:hover a{
         color: #000;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--projects-button-wrapper
     .header--projects-button{
@@ -317,8 +317,8 @@ export default {
         border: 1px solid #ffffff;
         letter-spacing: 3px;
     }
-    .header--container 
-    .header--item 
+    .header--container
+    .header--item
     .header--item--content
     .header--projects-button-wrapper
     .header--projects-button:hover{
@@ -353,8 +353,8 @@ export default {
         transition: 0.6s linear;
     }
     @media screen and (max-width: 1200px) {
-        .header--container 
-        .header--item 
+        .header--container
+        .header--item
         .header--item--content
         .header--name{
             font-size: 50px;
@@ -365,8 +365,8 @@ export default {
         }
     }
     @media screen and (max-width: 800px) {
-        .header--container 
-        .header--item 
+        .header--container
+        .header--item
         .header--item--content
         .header--name{
             font-size: 45px;
@@ -379,8 +379,8 @@ export default {
         }
     }
     @media screen and (max-width: 780px) {
-        .header--container 
-        .header--item 
+        .header--container
+        .header--item
         .header--item--content
         .header--name{
             font-size: 45px;
@@ -416,16 +416,16 @@ export default {
         .navigation{
             padding: 40px;
         }
-        .header--container 
-        .header--item 
+        .header--container
+        .header--item
         .header--item--content
         .header--name{
             font-size: 30px;
         }
     }
     @media screen and (max-width: 350px) {
-        .header--container 
-        .header--item 
+        .header--container
+        .header--item
         .header--item--content
         .header--name{
             font-size: 25px;

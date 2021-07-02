@@ -16,11 +16,216 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
+                                    <div class="project--header" @click="goToSite('https://app.emeraldfarms.ng')">
+                                        <img src="../assets/projects/emerald.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        A farm investment platform for Emerald Farms Ltd built with PHP Laravel, jQuery and MySQL database.
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/jquery.svg" class="project--footer-tech" alt="jquery">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
+                                    </div>
+                                    <div class="project--view" @click="goToSite('https://app.emeraldfarms.ng')">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header" @click="goToSite('https://app.longrichproduct.ng')">
+                                        <img src="../assets/projects/longrich.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        A Longrich membership e-commerce application built using PHP Laravel, jQuery and MySQL database.
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/jquery.svg" class="project--footer-tech" alt="jquery">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
+                                    </div>
+                                    <div class="project--view" @click="goToSite('https://app.longrichproduct.ng')">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header" @click="goToSite('http://app.theempowermentnetwork.ng')">
+                                        <img src="../assets/projects/ten.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        An NGO platform for The Empowerment Network Africa, built with PHP Laravel, jQuery, and MySQL database.
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/jquery.svg" class="project--footer-tech" alt="jquery">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
+                                    </div>
+                                    <div class="project--view" @click="goToSite('http://app.theempowermentnetwork.ng')">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header" @click="goToSite('http://app.theempowermentnetwork.ng')">
+                                        <img src="../assets/projects/landlord.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        A Nigeria property listing web application, built with PHP Laravel, jQuery, and MySQL database.
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/jquery.svg" class="project--footer-tech" alt="jquery">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
+                                    </div>
+                                    <div class="project--view" @click="goToSite('http://app.theempowermentnetwork.ng')">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
+                                    <div class="project--header" @click="goToSite('http://hms.crudng.com')">
+                                        <img src="../assets/projects/hms.png" alt="">
+                                    </div>
+                                    <div class="project--body">
+                                        A hotel management software that helps keep track of day-to-day activities, and also manage customers. This application was built with VueJS, Laravel and MySQL database.
+                                    </div>
+                                    <div class="project--credentials">
+                                        <div class="project--credentials-title">
+                                            Login Credentials
+                                        </div>
+                                        <div class="project--credentials-body">
+                                            <div class="project--credentials-info">
+                                                <div>User:</div>
+                                                <div>sales@crudng.com</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Admin:</div>
+                                                <div>Not required</div>
+                                            </div>
+                                            <div class="project--credentials-info">
+                                                 <div>Password:</div>
+                                                <div>pas</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--footer">
+                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
+                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
+                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
+                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="jquery">
+                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
+                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
+                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
+                                    </div>
+                                    <div class="project--view" @click="goToSite('http://hms.crudng.com')">
+                                        <a href="#">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project--container">
                                     <div class="project--header" @click="goToSite('https://devrom-romxchange.herokuapp.com')">
                                         <img src="../assets/projects/romxchange.png" alt="">
                                     </div>
                                     <div class="project--body">
-                                        A realtime escrowed cryptocurrency peer-to-peer exchange platform that promotes transparency in online transactions. It provides a realtime chatbox for involved parties. 
+                                        A realtime escrowed cryptocurrency peer-to-peer exchange platform that promotes transparency in online transactions. It provides a realtime chatbox for involved parties.
                                     </div>
                                     <div class="project--credentials">
                                         <div class="project--credentials-title">
@@ -51,315 +256,6 @@
                                         <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
                                     </div>
                                     <div class="project--view" @click="goToSite('https://devrom-romxchange.herokuapp.com')">
-                                        <a href="#">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://acecng.com')">
-                                        <img src="../assets/projects/acec.png" alt="">
-                                    </div>
-                                    <div class="project--body">
-                                        The official website of ACEC Constructions Limited. This project was designed with HTML, CSS, Vanilla Js and jQuery.
-                                    </div>
-                                    <div class="project--credentials">
-                                        <div class="project--credentials-title">
-                                            Login Credentials
-                                        </div>
-                                        <div class="project--credentials-body">
-                                            <div class="project--credentials-info">
-                                                <div>User:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Admin:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Password:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--footer">
-                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
-                                        <img src="../assets/techs/jquery.svg" class="project--footer-tech" alt="jquery">
-                                    </div>
-                                    <div class="project--view" @click="goToSite('https://acecng.com')">
-                                        <a href="#">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://crudng.com')">
-                                        <img src="../assets/projects/crud.png" alt="">
-                                    </div>
-                                    <div class="project--body">
-                                        The official website of CRUD Technologies. This project was designed with HTML, CSS and Vue JS technology.
-                                    </div>
-                                    <div class="project--credentials">
-                                        <div class="project--credentials-title">
-                                            Login Credentials
-                                        </div>
-                                        <div class="project--credentials-body">
-                                            <div class="project--credentials-info">
-                                                <div>User:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Admin:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Password:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--footer">
-                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
-                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="vue">
-                                    </div>
-                                    <div class="project--view" @click="goToSite('https://crudng.com')">
-                                        <a href="#">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://etrj.com.ng')">
-                                        <img src="../assets/projects/etrj.png" alt="">
-                                    </div>
-                                    <div class="project--body">
-                                        The official website of Engineering Technology and Research Journal (ETRJ), Lagos State University, Epe Campus.
-                                    </div>
-                                    <div class="project--credentials">
-                                        <div class="project--credentials-title">
-                                            Login Credentials
-                                        </div>
-                                        <div class="project--credentials-body">
-                                            <div class="project--credentials-info">
-                                                <div>User:</div>
-                                                <div>Not required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Admin:</div>
-                                                <div>Not required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Password:</div>
-                                                <div>Not required</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--footer">
-                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
-                                        <img src="../assets/techs/jquery.svg" class="project--footer-tech" alt="jquery">
-                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
-                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
-                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
-                                    </div>
-                                    <div class="project--view" @click="goToSite('https://etrj.com.ng')">
-                                        <a href="#">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://devrom-gpify.netlify.app')">
-                                        <img src="../assets/projects/gpify.png" alt="">
-                                    </div>
-                                    <div class="project--body">
-                                        A super dynamic grade point simulation system for undergraduate and post-graduate students.
-                                    </div>
-                                    <div class="project--credentials">
-                                        <div class="project--credentials-title">
-                                            Login Credentials
-                                        </div>
-                                        <div class="project--credentials-body">
-                                            <div class="project--credentials-info">
-                                                <div>User:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Admin:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Password:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--footer">
-                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
-                                        <img src="../assets/techs/vue.svg" class="project--footer-tech" alt="vue">
-                                    </div>
-                                    <div class="project--view" @click="goToSite('https://devrom-gpify.netlify.app')">
-                                        <a href="#">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="project--container">
-                                    <div class="project--header" @click="goToSite('http://sharebay.devrom.tech')">
-                                        <img src="../assets/projects/sharebay.png" alt="">
-                                    </div>
-                                    <div class="project--body">
-                                        A website where ringtones can be played and downloaded, it also includes a wallpaper section where pictures can be browsed and downloaded according to preferred sizes.
-                                    </div>
-                                    <div class="project--credentials">
-                                        <div class="project--credentials-title">
-                                            Login Credentials
-                                        </div>
-                                        <div class="project--credentials-body">
-                                            <div class="project--credentials-info">
-                                                <div>User:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Admin:</div>
-                                                <div>admin@devrom.tech</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Password:</div>
-                                                <div>password</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--footer">
-                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
-                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
-                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
-                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
-                                    </div>
-                                    <div class="project--view" @click="goToSite('http://sharebay.devrom.tech')">
-                                        <a href="#">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="project--container">
-                                    <div class="project--header" @click="goToSite('http://foodapp.devrom.tech')">
-                                        <img src="../assets/projects/foodapp.png" alt="">
-                                    </div>
-                                    <div class="project--body">
-                                        A website that can be used by restaurants to make lists of their food with their respective prices available to their customers.
-                                    </div>
-                                    <div class="project--credentials">
-                                        <div class="project--credentials-title">
-                                            Login Credentials
-                                        </div>
-                                        <div class="project--credentials-body">
-                                            <div class="project--credentials-info">
-                                                <div>User:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Admin:</div>
-                                                <div>admin@devrom.tech</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Password:</div>
-                                                <div>password</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--footer">
-                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
-                                        <img src="../assets/techs/php.svg" class="project--footer-tech" alt="php">
-                                        <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
-                                        <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
-                                    </div>
-                                    <div class="project--view" @click="goToSite('http://foodapp.devrom.tech')">
-                                        <a href="#">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://devrom-calculator.netlify.app')">
-                                        <img src="../assets/projects/calculator.png" alt="">
-                                    </div>
-                                    <div class="project--body">
-                                        A web-based javascript calculator that performs basic mathematics computations. Designed with HTML, CSS and Vanilla JS.
-                                    </div>
-                                    <div class="project--credentials">
-                                        <div class="project--credentials-title">
-                                            Login Credentials
-                                        </div>
-                                        <div class="project--credentials-body">
-                                            <div class="project--credentials-info">
-                                                <div>User:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Admin:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Password:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--footer">
-                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
-                                    </div>
-                                    <div class="project--view" @click="goToSite('https://devrom-calculator.netlify.app')">
-                                        <a href="#">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://devrom-cardgame.netlify.app')">
-                                        <img src="../assets/projects/cardgame.png" alt="">
-                                    </div>
-                                    <div class="project--body">
-                                        A web-based javascript card game where users play with a programmed opponent. Designed with HTML, CSS and Vanilla JS.
-                                    </div>
-                                    <div class="project--credentials">
-                                        <div class="project--credentials-title">
-                                            Login Credentials
-                                        </div>
-                                        <div class="project--credentials-body">
-                                            <div class="project--credentials-info">
-                                                <div>User:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Admin:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                            <div class="project--credentials-info">
-                                                 <div>Password:</div>
-                                                <div>Not Required</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--footer">
-                                        <img src="../assets/techs/html.svg" class="project--footer-tech" alt="html">
-                                        <img src="../assets/techs/css.svg" class="project--footer-tech" alt="css">
-                                        <img src="../assets/techs/javascript.svg" class="project--footer-tech" alt="js">
-                                    </div>
-                                    <div class="project--view" @click="goToSite('https://devrom-cardgame.netlify.app')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
@@ -455,12 +351,12 @@ export default {
         border-bottom: 0.1px solid #000;
     }
     .project--container
-    .project--credentials 
+    .project--credentials
     .project--credentials-body{
         padding-top: 3px;
     }
     .project--container
-    .project--credentials 
+    .project--credentials
     .project--credentials-body
     .project--credentials-info{
         display: flex;

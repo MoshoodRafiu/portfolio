@@ -27,7 +27,7 @@
                         </p>
                     </div>
                     <div class="about--section-footer">
-                        <a href="./rom-cv.pdf" download>Download CV</a>
+                        <a href="./Moshood Rafiu CV.pdf" download>Download CV</a>
                     </div>
                 </div>
             </div>
