@@ -193,7 +193,7 @@
                                         <div class="project--credentials-body">
                                             <div class="project--credentials-info">
                                                 <div>User:</div>
-                                                <div>sales@crudng.com</div>
+                                                <div>Not required</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Admin:</div>
@@ -201,7 +201,7 @@
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Password:</div>
-                                                <div>pas</div>
+                                                <div>Not required</div>
                                             </div>
                                         </div>
                                     </div>
