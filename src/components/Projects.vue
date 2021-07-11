@@ -16,11 +16,11 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://app.emeraldfarms.ng')">
-                                        <img src="../assets/projects/emerald.png" alt="">
+                                    <div class="project--header" @click="goToSite('https://app.cityfreshfarms.ng')">
+                                        <img src="../assets/projects/city.png" alt="">
                                     </div>
                                     <div class="project--body">
-                                        A farm investment platform for Emerald Farms Ltd built with PHP Laravel, jQuery and MySQL database.
+                                        A farm investment platform for City Fresh Farms Ltd built with PHP Laravel, jQuery and MySQL database.
                                     </div>
                                     <div class="project--credentials">
                                         <div class="project--credentials-title">
@@ -29,7 +29,7 @@
                                         <div class="project--credentials-body">
                                             <div class="project--credentials-info">
                                                 <div>User:</div>
-                                                <div>Not required</div>
+                                                <div>9jatronics@gmail.com</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Admin:</div>
@@ -37,7 +37,7 @@
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Password:</div>
-                                                <div>Not required</div>
+                                                <div>password</div>
                                             </div>
                                         </div>
                                     </div>
@@ -50,7 +50,7 @@
                                         <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
                                         <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
                                     </div>
-                                    <div class="project--view" @click="goToSite('https://app.emeraldfarms.ng')">
+                                    <div class="project--view" @click="goToSite('https://app.cityfreshfarms.ng')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@
                                         <div class="project--credentials-body">
                                             <div class="project--credentials-info">
                                                 <div>User:</div>
-                                                <div>Not required</div>
+                                                <div>9jatronics@gmail.com</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Admin:</div>
@@ -78,7 +78,7 @@
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Password:</div>
-                                                <div>Not required</div>
+                                                <div>password</div>
                                             </div>
                                         </div>
                                     </div>
@@ -111,7 +111,7 @@
                                         <div class="project--credentials-body">
                                             <div class="project--credentials-info">
                                                 <div>User:</div>
-                                                <div>Not required</div>
+                                                <div>9jatronics@gmail.com</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Admin:</div>
@@ -119,7 +119,7 @@
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Password:</div>
-                                                <div>Not required</div>
+                                                <div>password</div>
                                             </div>
                                         </div>
                                     </div>
@@ -139,11 +139,11 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header" @click="goToSite('http://app.theempowermentnetwork.ng')">
-                                        <img src="../assets/projects/landlord.png" alt="">
+                                    <div class="project--header" @click="goToSite('http://app.raregems.ng')">
+                                        <img src="../assets/projects/raregems.png" alt="">
                                     </div>
                                     <div class="project--body">
-                                        A Nigeria property listing web application, built with PHP Laravel, jQuery, and MySQL database.
+                                        A Gold and Silver trading platform with investment feature built for Raregems Ltd. It consists of a realtime Gold/Silver chart and other features;
                                     </div>
                                     <div class="project--credentials">
                                         <div class="project--credentials-title">
@@ -152,7 +152,7 @@
                                         <div class="project--credentials-body">
                                             <div class="project--credentials-info">
                                                 <div>User:</div>
-                                                <div>Not required</div>
+                                                <div>9jatronics@gmail.com</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Admin:</div>
@@ -160,7 +160,7 @@
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Password:</div>
-                                                <div>Not required</div>
+                                                <div>password</div>
                                             </div>
                                         </div>
                                     </div>
@@ -173,14 +173,14 @@
                                         <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
                                         <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
                                     </div>
-                                    <div class="project--view" @click="goToSite('http://app.theempowermentnetwork.ng')">
+                                    <div class="project--view" @click="goToSite('http://app.raregems.ng')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header" @click="goToSite('http://hms.crudng.com')">
+                                    <div class="project--header" @click="goToSite('https://hms.crudng.com')">
                                         <img src="../assets/projects/hms.png" alt="">
                                     </div>
                                     <div class="project--body">
@@ -221,11 +221,11 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="project--container">
-                                    <div class="project--header" @click="goToSite('https://devrom-romxchange.herokuapp.com')">
-                                        <img src="../assets/projects/romxchange.png" alt="">
+                                    <div class="project--header" @click="goToSite('https://etrj.com.ng')">
+                                        <img src="../assets/projects/etrj.png" alt="">
                                     </div>
                                     <div class="project--body">
-                                        A realtime escrowed cryptocurrency peer-to-peer exchange platform that promotes transparency in online transactions. It provides a realtime chatbox for involved parties.
+                                        The official website of Engineering and Technology Research Journal (ETRJ), Lagos State University.
                                     </div>
                                     <div class="project--credentials">
                                         <div class="project--credentials-title">
@@ -234,15 +234,15 @@
                                         <div class="project--credentials-body">
                                             <div class="project--credentials-info">
                                                 <div>User:</div>
-                                                <div>demo@devrom.tech</div>
+                                                <div>Not Available</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Admin:</div>
-                                                <div>admin@devrom.tech</div>
+                                                <div>Not Available</div>
                                             </div>
                                             <div class="project--credentials-info">
                                                  <div>Password:</div>
-                                                <div>password</div>
+                                                <div>Not Available</div>
                                             </div>
                                         </div>
                                     </div>
@@ -255,7 +255,7 @@
                                         <img src="../assets/techs/laravel.svg" class="project--footer-tech" alt="laravel">
                                         <img src="../assets/techs/mysql.svg" class="project--footer-tech" alt="mysql">
                                     </div>
-                                    <div class="project--view" @click="goToSite('https://devrom-romxchange.herokuapp.com')">
+                                    <div class="project--view" @click="goToSite('https://etrj.com.ng')">
                                         <a href="#">View Project</a>
                                     </div>
                                 </div>
@@ -311,6 +311,7 @@ export default {
     }
     .project--container .project--header{
         font-size: 20px;
+        border-radius: 5px 5px 0 0;
         display: flex;
         justify-content: center;
         align-items: center;
