@@ -19,11 +19,16 @@
                     </div>
                     <div class="about--section-content">
                         <p>
-                            I am a creative and ambitious full stack web developer and programmer with a talent for critical reasoning, problem solving
-                        and time management.I am currently in my fourth year of studying Electronic and Computer Engineering at Lagos
-                        state University. I have excellent communication skills, enabling me to effectively communicate with a wide range
-                        of people and I am eager to be challenged so as to develop and also improve my skills. My passion is to provide
-                        solutions to problems that in turn benefits both individuals and organizations.
+                            Innovative and technically-astute software
+                            engineer with a 5-year Computer Engineering
+                            degree and 2+ years of experience. As a
+                            creative and ambitious software engineer with
+                            a talent for critical reasoning and problemsolving,
+                            my passion is to contribute to how the
+                            internet is progressing and how web
+                            applications are evolving. I enjoy working
+                            collaboratively but I can also work
+                            i ndependently.
                         </p>
                     </div>
                     <div class="about--section-footer">
