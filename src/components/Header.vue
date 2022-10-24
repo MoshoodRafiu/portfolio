@@ -38,13 +38,13 @@
                     <div class="header--item--content">
                         <div class="header--greeting">Hello There!</div>
                         <div class="header--name">I am Rafiu Moshood</div>
-                        <div class="header--role">Software Developer</div>
+                        <div class="header--role">Software Engineer</div>
                         <div class="header--socials">
-                            <div class="header--social-link"><a href="https://facebook.com/moshood.rafiu.1"><span class="fab fa-facebook-f"></span></a></div>
-                            <div class="header--social-link"><a href="https://twitter.com/devrom_"><span class="fab fa-twitter"></span></a></div>
-                            <div class="header--social-link"><a href="https://github.com/devKunle"><span class="fab fa-github"></span></a></div>
-                            <div class="header--social-link"><a href="https://www.instagram.com/devkunle"><span class="fab fa-instagram"></span></a></div>
-                            <div class="header--social-link"><a href="mailto:rafiumoshoodolakunle@gmail.com"><span class="fa fa-envelope"></span></a></div>
+                            <div class="header--social-link"><a target="_blank" href="https://facebook.com/moshood.rafiu.1"><span class="fab fa-facebook-f"></span></a></div>
+                            <div class="header--social-link"><a target="_blank" href="https://twitter.com/devrom_"><span class="fab fa-twitter"></span></a></div>
+                            <div class="header--social-link"><a target="_blank" href="https://github.com/devKunle"><span class="fab fa-github"></span></a></div>
+                            <div class="header--social-link"><a target="_blank" href="https://www.instagram.com/devkunle"><span class="fab fa-instagram"></span></a></div>
+                            <div class="header--social-link"><a target="_blank" href="mailto:rafiumoshoodolakunle@gmail.com"><span class="fa fa-envelope"></span></a></div>
                         </div>
                         <div class="header--projects-button-wrapper">
                             <button class="header--projects-button">Projects</button>

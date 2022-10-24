@@ -19,16 +19,10 @@
                     </div>
                     <div class="about--section-content">
                         <p>
-                            Innovative and technically-astute software
-                            engineer with a 5-year Computer Engineering
-                            degree and 2+ years of experience. As a
-                            creative and ambitious software engineer with
-                            a talent for critical reasoning and problemsolving,
-                            my passion is to contribute to how the
-                            internet is progressing and how web
-                            applications are evolving. I enjoy working
-                            collaboratively but I can also work
-                            i ndependently.
+                            An innovative software engineer with a 5-year Computer Engineering degree and 2 years of experience. Well-versed
+                            in technology and writing code to develop software that is reliable and user-friendly. A creative tech
+                            enthusiast with a talent for critical reasoning and problem-solving, and a passion to contribute to how the
+                            internet is progressing and how technology is evolving.
                         </p>
                     </div>
                     <div class="about--section-footer">

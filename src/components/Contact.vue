@@ -3,12 +3,12 @@
         <section id="contact">
             <div class="contact--container">
                 <div class="contact--information">
-                    <div class="contact--detail"><a href="https://facebook.com/moshood.rafiu.1"><span class="fab fa-facebook-f"></span></a></div>
-                    <div class="contact--detail"><a href="tel:2348144259341"><span class="fa fa-phone"></span></a></div>
-                    <div class="contact--detail"><a href="https://www.instagram.com/devkunle"><span class="fab fa-instagram"></span></a></div>
-                    <div class="contact--detail"><a href="https://github.com/devKunle"><span class="fab fa-github"></span></a></div>
-                    <div class="contact--detail"><a href="https://twitter.com/devrom_"><span class="fab fa-twitter"></span></a></div>
-                    <div class="contact--detail"><a href="mailto:rafiumoshoodolakunle@gmail.com"><span class="fa fa-envelope"></span></a></div>
+                    <div class="contact--detail"><a target="_blank" href="https://facebook.com/moshood.rafiu.1"><span class="fab fa-facebook-f"></span></a></div>
+                    <div class="contact--detail"><a target="_blank" href="tel:2348144259341"><span class="fa fa-phone"></span></a></div>
+                    <div class="contact--detail"><a target="_blank" href="https://www.instagram.com/devkunle"><span class="fab fa-instagram"></span></a></div>
+                    <div class="contact--detail"><a target="_blank" href="https://github.com/devKunle"><span class="fab fa-github"></span></a></div>
+                    <div class="contact--detail"><a target="_blank" href="https://twitter.com/devrom_"><span class="fab fa-twitter"></span></a></div>
+                    <div class="contact--detail"><a target="_blank" href="mailto:rafiumoshoodolakunle@gmail.com"><span class="fa fa-envelope"></span></a></div>
                 </div>
                 <div class="copyright">&copy; Rafiu Olakunle Moshood {{ (new Date()).getFullYear() }}</div>
             </div>
@@ -17,7 +17,7 @@
 </template>
 <script>
 export default {
-    
+
 }
 </script>
 <style>
